@@ -1,11 +1,21 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Logo from '../Components/Logo';
 import Navigation from '../Components/Navigation';
+import axios from 'axios';
 
 const Blog = () => {
 
     const [content , setContent] = useState("");
     const [error , setError] = useState(false);
+
+    const getData = ()=> {
+        axios.get("http://loclhost=3004/articles")
+        .then((res)=> console.log(res));
+    }  
+    
+    useEffect(()=>{
+        getData();
+    }, [] );
 
    const handleSubmit = (e) => {
     e.preventDefault();
@@ -33,6 +43,7 @@ const Blog = () => {
                 { error && <p>Erreur, vous devez écrire un minimum de 140 caractères</p> }
                 <input type='submit' value='Envoyer'/>
             </form>
+            <ul>  </ul>
             
         </div>
     );
