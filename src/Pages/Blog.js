@@ -45,7 +45,7 @@ const Blog = () => {
             <form onSubmit={(e)=>{handleSubmit(e)}}>
                 <input type='text' placeholder='Nom' onChange={(e) => setAuthor(e.target.value)} value={author}/>
                 <textarea placeholder='Message' 
-                    onChangeCapture={(e) => setContent(e.target.value)}
+                    onChange={(e) => setContent(e.target.value)}
                     style={{ border : error ? "1px solid red" : "1px solid black" }}
                     value={content}>
                 </textarea>
