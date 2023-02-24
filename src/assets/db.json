@@ -19,12 +19,6 @@
       "id": 3
     },
     {
-      "author": "Test",
-      "content": "hello les amis hello les amis hello les amis hello les amis hello les amis hello les amis hello les amis hello les amis hello les amis hello les amis hello les amis hello les amis hello les amis hello les amis hello les amis hello les amis ",
-      "date": 1677184614525,
-      "id": 4
-    },
-    {
       "author": "Spyros",
       "content": "Bonjour ce message a été écrit vite fait bien fait avec amour pour tester mon code javascripit react et voir si tout c'est bien passé. Je croise les doigts mais normalement c'est bon.",
       "date": 1677187832236,
@@ -67,10 +61,10 @@
       "id": 11
     },
     {
-      "author": "salut les almis",
-      "content": "je suis laje suis laje suis laje suis laje suis laje suis laje suis laje suis laje suis laje suis laje suis laje suis laje suis laje suis laje suis laje suis laje suis laje suis laje suis la",
-      "date": 1677259780478,
-      "id": 17
+      "author": "From S",
+      "content": "test de messages et encore des messages et encore des messages et encore des messages et encore des messages et encore des messages et encore des messages et encore des messages et fini... !",
+      "date": 1677268501711,
+      "id": 18
     }
   ]
 }
