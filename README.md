@@ -1,5 +1,7 @@
 # Flag API/Blog #
 
+![Illustration du site web](./image.png)
+
 This project use the version 18 of React JS
 
 I call an API for générate the flags in : https://restcountries.com/v3.1/all 
