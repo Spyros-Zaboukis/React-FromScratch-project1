@@ -1,4 +1,4 @@
-# Flag API/Blog #
+# React Flag API/Blog  Version 2 #
 
 ![Illustration du site web](./image.png)
 
